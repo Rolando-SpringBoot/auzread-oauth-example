@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:
+          audiences:
+
+logging:
+  level:
+    root: trace
+    org.springframework.security: DEBUG

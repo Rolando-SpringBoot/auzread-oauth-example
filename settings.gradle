@@ -1,0 +1,3 @@
+rootProject.name = 'azuread-oauth-demo'
+include 'azuread-server-app'
+

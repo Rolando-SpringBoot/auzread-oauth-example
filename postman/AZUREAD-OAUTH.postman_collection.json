@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "6562e40d-e8a3-4568-b21a-df62d91ddca7",
+		"name": "AZUREAD-OAUTH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20512663"
+	},
+	"item": [
+		{
+			"name": "GetUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyIsImtpZCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyJ9.eyJhdWQiOiJhcGk6Ly9jNzhlZjI1Zi1lZjJmLTQ2ZjEtYjZlYi0xOWI1YTdjYTk1NGQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9jNGI4YzFiYy0yNjg3LTQ0YzktOWJlZi1kMDRjZDFmZDAyNGEvIiwiaWF0IjoxNzIwNjQ3NzMyLCJuYmYiOjE3MjA2NDc3MzIsImV4cCI6MTcyMDY1MTYzMiwiYWlvIjoiRTJkZ1lNaDkvY1J4NHlwclVST0ZwOTg4T21YMUFRPT0iLCJhcHBpZCI6ImM3OGVmMjVmLWVmMmYtNDZmMS1iNmViLTE5YjVhN2NhOTU0ZCIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2M0YjhjMWJjLTI2ODctNDRjOS05YmVmLWQwNGNkMWZkMDI0YS8iLCJvaWQiOiI4MTE0ZmZiZi1mMThiLTQzMjMtOGYxZC03ZDM0ZWQwYTYzNjAiLCJyaCI6IjAuQWJjQXZNRzR4SWNteVVTYjc5Qk0wZjBDU2xfeWpzY3Y3X0ZHdHVzWnRhZktsVTM4QUFBLiIsInJvbGVzIjpbInJlYWR1c2VyIiwiY3JlYXRldXNlciJdLCJzdWIiOiI4MTE0ZmZiZi1mMThiLTQzMjMtOGYxZC03ZDM0ZWQwYTYzNjAiLCJ0aWQiOiJjNGI4YzFiYy0yNjg3LTQ0YzktOWJlZi1kMDRjZDFmZDAyNGEiLCJ1dGkiOiJHcHdrT1hTbmVVeTJGTHRfcWZ3eEFBIiwidmVyIjoiMS4wIn0.YVjlHvdPQuUzkRwh7uByAuLLiqfyRd261Zeh5pipbSqTW24J8kBt35svmPbYkClz6xjBYkVZ8ympWzi_1mfoYbYV8c9rSQU40LD9VKkV1T6bDm3A81qYyF7fwGBa69-JYSx66CSsTwJiOJuvC_Hp2qIvPezXXNdG6HustmQbvOOr60u1FOPRJzj9ANXFT9ZWqnb6lluZamfvV44m7vmPGTD-7Jvs60QQYfezVYuhWJda8IxGSnGtrZpbx2NOOSGa52eJY_NSgFDVmnuiC-4XFtRU8kW0dNoicYRMB27RjYNp5YqIfIYX9tEi5BD9bpMBuyoOtNYO6_YTNikX_eXacw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyIsImtpZCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyJ9.eyJhdWQiOiJhcGk6Ly9jNzhlZjI1Zi1lZjJmLTQ2ZjEtYjZlYi0xOWI1YTdjYTk1NGQiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9jNGI4YzFiYy0yNjg3LTQ0YzktOWJlZi1kMDRjZDFmZDAyNGEvIiwiaWF0IjoxNzIwNjQ1NzE5LCJuYmYiOjE3MjA2NDU3MTksImV4cCI6MTcyMDY0OTYxOSwiYWlvIjoiRTJkZ1lMQzNMS212VFRkbi9CYkR1ZVpHYmZGZkFBPT0iLCJhcHBpZCI6ImIwZjdlN2IwLTBiNTYtNDAyZS1iYzBiLTcwMmI5NTlhMTYxZCIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2M0YjhjMWJjLTI2ODctNDRjOS05YmVmLWQwNGNkMWZkMDI0YS8iLCJvaWQiOiI5ZDhhZjA0ZS1kYmZiLTQ0ZGEtOWZhNC1hNjU3Nzk3OWEwMmQiLCJyaCI6IjAuQWJjQXZNRzR4SWNteVVTYjc5Qk0wZjBDU2xfeWpzY3Y3X0ZHdHVzWnRhZktsVTM4QUFBLiIsInJvbGVzIjpbInJlYWR1c2VyIiwiY3JlYXRldXNlciJdLCJzdWIiOiI5ZDhhZjA0ZS1kYmZiLTQ0ZGEtOWZhNC1hNjU3Nzk3OWEwMmQiLCJ0aWQiOiJjNGI4YzFiYy0yNjg3LTQ0YzktOWJlZi1kMDRjZDFmZDAyNGEiLCJ1dGkiOiJzc3Jza0IyZF9VUzQtbElwMGxXQUFBIiwidmVyIjoiMS4wIn0.j7mHUGBwiuq7hNq0VHY-WfuT01rMFCQxzKLvTBwRzDfKfj4xuOr9QJzsyevBukCWUFG0-k0gnFlC3ziFc0q4OzFOvOwiK96jNbzuTtY_kIhXwsZAdFQa035KwCzzZn73eY7BDu2CyUiNEYdaY-SDFxhYUJglqxLACNyMVPyjaNpkTMpW9ayouUOCqmqaxjCUesSyPCmvaw49KBKn-aQHtOj6IZB_Opt33zphoYAl-MlqLMIpQlRe6rJ3KbZ4ftvPEZSaB23Qo0dYQC7ZCh9Cij7VEY1oux7uAnQMNVoEUNSBN_iQ1uChyGepDbjgfs9YgZLCPDkAij5TvIG7WAYzzA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "<application id>",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "<secret value from-client secrets>",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "<url exposed api to call>",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						"<tenant-id>",
+						"oauth2",
+						"v2.0",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
