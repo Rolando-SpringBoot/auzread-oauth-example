@@ -16,15 +16,17 @@
 * postman collection: postman/AZUREAD-OAUTH.postman_collection.json
 * architecture image: doc/arquitectura.png
 
+# Azure EntraID OAUTH2 configuration manual
+* See the next document: [documenation.docx](doc/PROCEDIMIENTO CONFIGURACION AZURE ENTRAID OAUTH2.docx)
+
 # application yaml's documentation
-
-![spring-security-log.png](doc/spring-security-log.png)
-It allows you to log spring security
-
 ![jwt-issuer-audience.png](doc/jwt-issuer-audience.png)
 
 * issuer-uri: iss jwt property
 * audiences: aud jwt property
+
+![spring-security-log.png](doc/spring-security-log.png)
+* It allows you to log spring security
 
 ## Architecture
 ![arquitectura.png](doc/arquitectura.png)
