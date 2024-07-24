@@ -17,7 +17,7 @@
 * architecture image: doc/arquitectura.png
 
 # Azure EntraID OAUTH2 configuration manual
-* See the next document: [documenation.docx](doc/PROCEDIMIENTO CONFIGURACION AZURE ENTRAID OAUTH2.docx)
+* See the next document: [documenation.docx](doc/PROCEDIMIENTO%20CONFIGURACION%20AZURE%20ENTRAID%20OAUTH2.docx)
 
 # application yaml's documentation
 ![jwt-issuer-audience.png](doc/jwt-issuer-audience.png)
